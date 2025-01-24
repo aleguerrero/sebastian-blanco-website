@@ -1,0 +1,43 @@
+.header {
+  height: 5vh;
+}
+
+ul {
+  height: 100%;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+}
+
+.header-ul li {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.header-name {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.header-name a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 10vh;
+  }
+}

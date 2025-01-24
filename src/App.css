@@ -1,0 +1,61 @@
+* {
+  font-family: Arial;
+}
+
+.container {
+  transition: opacity 0.5s ease-in-out;
+  text-align: center;
+}
+
+.background-image {
+  transition: opacity 0.1s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.list-container,
+.video-container {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item {
+  margin: 10px 0;
+}
+
+.video-button,
+.back-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.back-button {
+  color: white;
+}
