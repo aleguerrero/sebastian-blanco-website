@@ -1,0 +1,27 @@
+.stills-container {
+  height: 95vh;
+  width: 100vw;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+}
+
+.pics-row {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+}
+
+img {
+  height: 50vh;
+  margin: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .stills-container {
+    height: 90vh;
+  }
+}
