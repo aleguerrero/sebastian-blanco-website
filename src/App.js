@@ -36,7 +36,7 @@ function App() {
           }}>
             { hoveredProject && (
               <video autoPlay muted loop id="myVideo">
-                <source src={hoveredProject.gif} type="video/mp4" />
+                <source src={hoveredProject.preview} type="video/mp4" />
               </video>
             )}
         </div>
