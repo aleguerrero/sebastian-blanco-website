@@ -5,7 +5,11 @@
 .container {
   transition: opacity 0.5s ease-in-out;
   text-align: center;
-  height: 95vh;
+  height: 90vh
+}
+
+.app-container {
+  transition: background-color 0.5s ease-in-out; 
 }
 
 .background-image {
@@ -16,8 +20,15 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: -1;
+}
+
+#myVideo {
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Send video to the background */
+  object-fit: cover;
 }
 
 .fade-in {
@@ -28,8 +39,7 @@
   opacity: 0;
 }
 
-.list-container,
-.video-container {
+.list-container {
   width: 100%;
   margin: 0 auto;
   height: 100%;
@@ -41,6 +51,14 @@
 }
 
 .video-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
   background-color: black;
 }
 
@@ -65,12 +83,21 @@
   cursor: pointer;
 }
 
+.video-button {
+  margin: 0;
+  padding: 0;
+}
+
 .video-button:hover {
   color: white
 }
 
 .back-button {
   color: white;
+}
+
+.selected {
+  background-color: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -98,14 +125,14 @@
   }
 
   .video-container {
-    height: 90vh;
+    height: 93vh;
   }
 
-  .gif-container {
+  .video-preview-container {
     width: 100%;
   }
 
-  .gif-mobile {
+  .video-preview {
     width: 100%;
     height: 100%;
     margin: 0;
