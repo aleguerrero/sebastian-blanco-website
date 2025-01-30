@@ -27,7 +27,7 @@ const Contact = () => {
                 <p className='contact-text'>Sebastian Blanco is a Director of Photography from Costa Rica, based in Mexico City & Los Angeles.</p>
                 <table className='contact-table'>
                     <tr>
-                        <td className='contact-table-title'>CLIENTS</td>
+                        <td className='contact-table-title'>CLIENTS & PRODUCTION COMPANIES</td>
                         <td className='contact-table-text'>Dior, adidas Originals, Sony Music, ELLE Mexico, DIM MAK, The Maestros, The LIFT, Amazon Prime, New Balance.</td>
                     </tr>
                     <tr>
