@@ -27,6 +27,18 @@ const Main = ({ hoveredProject, setHoveredProject, setSelectedVideoHeader, selec
 
     useEffect(() => {
 
+        videos.forEach(video => {
+            const videopreload = document.createElement('video');
+            videopreload.src = video.preview;
+            videopreload.preload = 'auto';
+            // videopreload.style.visibility = 'hidden'; // Make sure it is not visible
+            // videopreload.style.position = 'absolute'; // Remove it from document flow
+            // videopreload.style.width = '0'; // Ensure it has no size
+            // videopreload.style.height = '0'; // Ensure it has no size
+            // document.body.appendChild(videopreload);
+            videopreload.load();
+        });
+
         window.addEventListener('resize', handleWindowsSizeChange);
 
         return () => {
@@ -35,6 +47,36 @@ const Main = ({ hoveredProject, setHoveredProject, setSelectedVideoHeader, selec
 
 
     }, []);
+
+    // useEffect(() => {
+    //     // Create a hidden container to preload the videos
+    //     const preloadContainer = document.createElement('div');
+    //     preloadContainer.style.position = 'absolute';
+    //     preloadContainer.style.top = '0';
+    //     preloadContainer.style.left = '0';
+    //     preloadContainer.style.width = '0';
+    //     preloadContainer.style.height = '0';
+    //     preloadContainer.style.visibility = 'hidden'; // Make sure it's hidden
+
+    //     document.body.appendChild(preloadContainer); // Append to body
+
+    //     // Preload videos
+    //     videos.forEach((video) => {
+    //         const videopreload = document.createElement('video');
+    //         videopreload.src = video.preview;
+    //         videopreload.preload = 'auto';  // Automatically preload
+    //         videopreload.style.display = 'none'; // Keep it hidden, no layout effect
+    //         preloadContainer.appendChild(videopreload); // Add to the hidden container
+    //         videopreload.load(); // Start loading the video
+    //     });
+
+    //     return () => {
+    //         // Cleanup preloaded videos on unmount
+    //         document.body.removeChild(preloadContainer);
+    //     };
+    // }, []);
+
+
 
     const handleVideoClick = (video) => {
         setFade(true);
@@ -93,7 +135,7 @@ const Main = ({ hoveredProject, setHoveredProject, setSelectedVideoHeader, selec
                                 </p>
                                 {width <= 768 ? (
                                     <div className="video-preview-container">
-                                        <video autoPlay muted loop playsInline className="video-preview">
+                                        <video autoPlay muted loop playsInline id="myVideo">
                                             <source src={video.preview} type="video/mp4" />
                                         </video>
                                     </div>

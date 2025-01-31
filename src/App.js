@@ -34,20 +34,20 @@ function App() {
             opacity: hoveredProject !== null ? 1 : 0,
             // backgroundImage: hoveredProject ? `url(${hoveredProject.gif})` : 'none',
           }}>
-            { hoveredProject && (
-              <video autoPlay muted loop id="myVideo">
-                <source src={hoveredProject.preview} type="video/mp4" />
-              </video>
-            )}
+          {hoveredProject && (
+            <video autoPlay muted loop id="myVideo">
+              <source src={hoveredProject.preview} type="video/mp4" />
+            </video>
+          )}
         </div>
-        <Header selected={selectedVideoHeader} setSelectedVideoHeader={setSelectedVideoHeader} hoveredProject={hoveredProject} setSelectedVideo={handleSelectedVideo}/>
+        <Header selected={selectedVideoHeader} setSelectedVideoHeader={setSelectedVideoHeader} hoveredProject={hoveredProject} setSelectedVideo={handleSelectedVideo} />
         <Routes>
-          <Route path="/" element={<Main setHoveredProject={handleHoveredProject} setSelectedVideoHeader={handleSelectedVideoHeader} selectedVideo={selectedVideo} setSelectedVideo={handleSelectedVideo}/>} />
+          <Route path="/" element={<Main setHoveredProject={handleHoveredProject} setSelectedVideoHeader={handleSelectedVideoHeader} selectedVideo={selectedVideo} setSelectedVideo={handleSelectedVideo} />} />
           <Route path="/stills" element={<Stills />} />
-          <Route path="/contact" element={<Contact />}/>
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-    </Router>
+    </Router >
   );
 }
 
