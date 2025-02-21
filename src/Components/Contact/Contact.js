@@ -24,7 +24,12 @@ const Contact = () => {
     return (
         <div className="contact-container">
             <div className='contact-box'>
-                <p className='contact-text'>Sebastian Blanco is a Director of Photography from Costa Rica, based in Mexico City & Los Angeles.</p>
+                <p className='contact-text'>Sebastian Blanco is a Director of Photography from Costa Rica, based in Mexico City
+                    {process.env.REACT_APP_LA_MODE === "1" ? (
+                       "."  
+                    ) : (
+                        " & Los Angeles."
+                    )}</p>
                 <table className='contact-table'>
                     <tr>
                         <td className='contact-table-title'>CLIENTS & PRODUCTION COMPANIES</td>

@@ -17,6 +17,10 @@ const videos = [
     { id: 13, title: "CRUDA", url: "https://vimeo.com/814438844", preview: process.env.PUBLIC_URL + "/previews/cruda.mp4" },
 ];
 
+if (process.env.REACT_APP_LA_MODE === "1") {
+    delete videos[2];
+}
+
 const Main = ({ hoveredProject, setHoveredProject, setSelectedVideoHeader, selectedVideo, setSelectedVideo }) => {
     const [fade, setFade] = useState(false);
     const [width, setWidth] = useState(window.innerWidth);
@@ -31,11 +35,6 @@ const Main = ({ hoveredProject, setHoveredProject, setSelectedVideoHeader, selec
             const videopreload = document.createElement('video');
             videopreload.src = video.preview;
             videopreload.preload = 'auto';
-            // videopreload.style.visibility = 'hidden'; // Make sure it is not visible
-            // videopreload.style.position = 'absolute'; // Remove it from document flow
-            // videopreload.style.width = '0'; // Ensure it has no size
-            // videopreload.style.height = '0'; // Ensure it has no size
-            // document.body.appendChild(videopreload);
             videopreload.load();
         });
 
@@ -47,35 +46,6 @@ const Main = ({ hoveredProject, setHoveredProject, setSelectedVideoHeader, selec
 
 
     }, []);
-
-    // useEffect(() => {
-    //     // Create a hidden container to preload the videos
-    //     const preloadContainer = document.createElement('div');
-    //     preloadContainer.style.position = 'absolute';
-    //     preloadContainer.style.top = '0';
-    //     preloadContainer.style.left = '0';
-    //     preloadContainer.style.width = '0';
-    //     preloadContainer.style.height = '0';
-    //     preloadContainer.style.visibility = 'hidden'; // Make sure it's hidden
-
-    //     document.body.appendChild(preloadContainer); // Append to body
-
-    //     // Preload videos
-    //     videos.forEach((video) => {
-    //         const videopreload = document.createElement('video');
-    //         videopreload.src = video.preview;
-    //         videopreload.preload = 'auto';  // Automatically preload
-    //         videopreload.style.display = 'none'; // Keep it hidden, no layout effect
-    //         preloadContainer.appendChild(videopreload); // Add to the hidden container
-    //         videopreload.load(); // Start loading the video
-    //     });
-
-    //     return () => {
-    //         // Cleanup preloaded videos on unmount
-    //         document.body.removeChild(preloadContainer);
-    //     };
-    // }, []);
-
 
 
     const handleVideoClick = (video) => {
