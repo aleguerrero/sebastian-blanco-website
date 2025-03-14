@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player/vimeo';
 
 const videos = [
-    { id: 1, title: 'BAD HABIT', url: "https://vimeo.com/1036816601/2d3f289ffc", preview: process.env.PUBLIC_URL + "/previews/badhabit.mp4" },
+    { id: 1, title: 'BAD HABIT', url: "https://vimeo.com/1065167402", preview: process.env.PUBLIC_URL + "/previews/badhabit.mp4" },
     { id: 2, title: 'DIOR X ELLE MEXICO', url: "https://vimeo.com/962736308", preview: process.env.PUBLIC_URL + "/previews/dior.mp4" },
     { id: 3, title: "DEBUT", url: "https://vimeo.com/1021172687", preview: process.env.PUBLIC_URL + "/previews/debut.mp4" },
     { id: 4, title: "ADIDAS ORIGINALS", url: "https://vimeo.com/902639022", preview: process.env.PUBLIC_URL + "/previews/adidas.mp4" },
