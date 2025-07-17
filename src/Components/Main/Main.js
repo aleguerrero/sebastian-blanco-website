@@ -80,15 +80,23 @@ const Main = ({ hoveredProject, setHoveredProject, setSelectedVideoHeader, selec
     return (
         <div className={`container ${fade ? 'fade-out' : 'fade-in'}`}>
             {selectedVideo ? (
-                <div class="video-container">
+                <div className="video-container">
                     <ReactPlayer
                         url={selectedVideo.url}
                         width="100%"
                         height="100%"
                         controls={true}
-                        playing={true} />
+                        config={{
+                            vimeo: {
+                                playerOptions: {
+                                    autoplay: true,
+                                    playsinline: true
+                                }
+                            }
+                        }}
+                    />
                     <p className="back-button" onClick={handleBackClick}>
-                        Back to list
+                        BACK TO LIST
                     </p>
                 </div>
             ) : (
@@ -100,8 +108,7 @@ const Main = ({ hoveredProject, setHoveredProject, setSelectedVideoHeader, selec
                                 onClick={() => handleVideoClick(video)}
                                 onMouseEnter={() => handleHoveredProject(video)}
                                 onMouseLeave={() => handleHoveredProject(null)}>
-                                <p
-                                    className="video-button">
+                                <p className="video-button">
                                     {video.title}
                                 </p>
                                 {width <= 768 ? (
