@@ -45,7 +45,7 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
                 </ul>
                 <ul className='header-links'>
                     <div className='instagram-logo'>
-                        <a href="https://www.instagram.com/sebastianblancodp/" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/instagramlogo.png"} className={`${selected ? 'invert' : ''}`} alt="instagram" /></a>
+                        <a href="https://www.instagram.com/sebstnblanco/" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/instagramlogo.png"} className={`${selected ? 'invert' : ''}`} alt="instagram" /></a>
                     </div>
                     <div className='vimeo-logo'>
                         <a href="https://vimeo.com/sebastianblanco" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/vimeologo.png"} alt="vimeo" className={`${selected ? 'invert' : ''}`} /></a>
