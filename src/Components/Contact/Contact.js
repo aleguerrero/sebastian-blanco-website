@@ -33,7 +33,7 @@ const Contact = () => {
                 <table className='contact-table'>
                     <tr>
                         <td className='contact-table-title'>CLIENTS & PRODUCTION COMPANIES</td>
-                        <td className='contact-table-text'>Dior, adidas Originals, Sony Music, ELLE Mexico, DIM MAK, The Maestros, The LIFT, Amazon Prime, New Balance.</td>
+                        <td className='contact-table-text'>Dior, Spotify, Corona, LANDIA, The LIFT, Amazon Prime, The Maestros, Chevrolet, Sony Music, adidas Originals.</td>
                     </tr>
                     <tr>
                         <td className='contact-table-title'>EMAIL</td>
