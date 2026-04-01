@@ -52,8 +52,8 @@ const Contact = () => {
                     <Link to="/">BACK</Link>
                 </div>
                 <div className='photos-box'>
-                    <img src={process.env.PUBLIC_URL + "/nikon-3.JPG"} className="still-image-contact" />
-                    <img src={process.env.PUBLIC_URL + "/sbb.jpg"} className="still-image-contact" />
+                    <img alt="photo1" src={process.env.PUBLIC_URL + "/nikon-3.JPG"} className="still-image-contact" />
+                    <img alt="photo2" src={process.env.PUBLIC_URL + "/sbb.jpg"} className="still-image-contact" />
                 </div>
             </div>
         </div >

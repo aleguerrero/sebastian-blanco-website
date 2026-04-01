@@ -9,7 +9,7 @@ if (process.env.REACT_APP_LA_MODE === "1") {
 const Main = ({ hoveredProject, setHoveredProject, setSelectedVideoHeader, selectedVideo, setSelectedVideo }) => {
     const [fade, setFade] = useState(false);
     const [width, setWidth] = useState(window.innerWidth);
-    const [selectedWork, setSelectedWork] = useState(true);
+    // const [selectedWork, setSelectedWork] = useState(true);
     const navigate = useNavigate();
     // const [commercial, setCommercial] = useState(false);
 
@@ -54,13 +54,13 @@ const Main = ({ hoveredProject, setHoveredProject, setSelectedVideoHeader, selec
         }, 500);
     };
 
-    const handleBackClick = () => {
-        setFade(true);
-        setTimeout(() => {
-            navigate(`/`);
-            setFade(false);
-        }, 500);
-    };
+    // const handleBackClick = () => {
+    //     setFade(true);
+    //     setTimeout(() => {
+    //         navigate(`/`);
+    //         setFade(false);
+    //     }, 500);
+    // };
 
     return (
         <div className={`container ${fade ? 'fade-out' : 'fade-in'}`}>
@@ -110,30 +110,29 @@ const Main = ({ hoveredProject, setHoveredProject, setSelectedVideoHeader, selec
                         ))}
                     </ul> */}
 
-                    {selectedWork &&
-                        videos.sections.selected_work.map((v) => (
-                            <div
-                                className='video-container-prev'
-                                onClick={() => handleVideoClick(v)}
-                            >
-                                <div className='title'>
-                                    {videos.projects[v].title}
-                                </div>
-                                <div>
-                                    {width <= 768 ? (
-                                        <div className="video-preview-container">
-                                            <video autoPlay muted loop playsInline id="myVideo">
-                                                <source src={v.preview} type="video/mp4" />
-                                            </video>
-                                        </div>
-                                    ) : (
-                                        <video autoPlay muted loop playsInline disablePictureInPicture id="myVideo">
-                                            <source src={videos.projects[v].preview} type="video/mp4" />
-                                        </video>
-                                     )}
-                                </div>
+                    {videos.sections.selected_work.map((v) => (
+                        <div
+                            className='video-container-prev'
+                            onClick={() => handleVideoClick(v)}
+                        >
+                            <div className='title'>
+                                {videos.projects[v].title}
                             </div>
-                        ))
+                            <div>
+                                {width <= 768 ? (
+                                    <div className="video-preview-container">
+                                        <video autoPlay muted loop playsInline id="myVideo">
+                                            <source src={v.preview} type="video/mp4" />
+                                        </video>
+                                    </div>
+                                ) : (
+                                    <video autoPlay muted loop playsInline disablePictureInPicture id="myVideo">
+                                        <source src={videos.projects[v].preview} type="video/mp4" />
+                                    </video>
+                                )}
+                            </div>
+                        </div>
+                    ))
                     }
                     {/* {commercial && 
                         videos.selected_work.map((v) => (

@@ -5,14 +5,14 @@ import videos from "../../projects.json"
 
 const MusicVideos = ({ setSelectedVideoHeader, selectedVideo, setSelectedVideo }) => {
     const [fade, setFade] = useState(false);
-    const [width, setWidth] = useState(window.innerWidth);
+    // const [width, setWidth] = useState(window.innerWidth);
     const navigate = useNavigate();
     // const [selectedWork, setSelectedWork] = useState(true);
     // const [commercial, setCommercial] = useState(false);
 
-    function handleWindowsSizeChange() {
-        setWidth(window.innerWidth);
-    }
+    // function handleWindowsSizeChange() {
+    //     setWidth(window.innerWidth);
+    // }
 
     useEffect(() => {
 
@@ -30,11 +30,11 @@ const MusicVideos = ({ setSelectedVideoHeader, selectedVideo, setSelectedVideo }
             videopreload.load();
         });
 
-        window.addEventListener('resize', handleWindowsSizeChange);
+        // window.addEventListener('resize', handleWindowsSizeChange);
 
-        return () => {
-            window.removeEventListener('resize', handleWindowsSizeChange);
-        }
+        // return () => {
+        //     window.removeEventListener('resize', handleWindowsSizeChange);
+        // }
 
 
     }, []);
