@@ -5,6 +5,9 @@ import Main from './Components/Main/Main';
 import './App.css';
 import Stills from './Components/Stills/Stills';
 import Contact from './Components/Contact/Contact';
+import Commercial from './Components/Main/Commercial';
+import MusicVideos from './Components/Main/MusicVideos';
+import VideoPlayer from './Components/Main/VideoPlayer';
 
 function App() {
 
@@ -43,8 +46,11 @@ function App() {
         <Header selected={selectedVideoHeader} setSelectedVideoHeader={setSelectedVideoHeader} hoveredProject={hoveredProject} setSelectedVideo={handleSelectedVideo} />
         <Routes>
           <Route path="/" element={<Main setHoveredProject={handleHoveredProject} setSelectedVideoHeader={handleSelectedVideoHeader} selectedVideo={selectedVideo} setSelectedVideo={handleSelectedVideo} />} />
+          <Route path="/commercial" element={<Commercial />} />
           <Route path="/stills" element={<Stills />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/music_videos" element={<MusicVideos />} />
+          <Route path="/projects/:slug" element={<VideoPlayer />} />
         </Routes>
       </div>
     </Router >

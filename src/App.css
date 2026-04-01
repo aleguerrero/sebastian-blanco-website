@@ -1,36 +1,23 @@
 * {
   font-family: Arial;
   font-size: 14px;
+  background: black;
+  color: white;
 }
 
 .container {
   transition: opacity 0.5s ease-in-out;
-  text-align: center;
-  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .app-container {
   transition: background-color 0.5s ease-in-out;
 }
 
-.background-image {
-  transition: opacity 0.5s ease-in-out;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  overflow: hidden;
-}
-
 #myVideo {
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* Send video to the background */
-  object-fit: cover;
+  width: 500px;
 }
 
 .fade-in {
@@ -41,42 +28,33 @@
   opacity: 0;
 }
 
-.list-container {
-  width: 100%;
-  margin: 0 auto;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  font-size: 14px;
+.title {
+  margin-bottom: 5px;
 }
 
-.video-container {
-  width: 100%;
-  margin: 0 auto;
-  height: 90vh;
+.list-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  background-color: black;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video-container-prev {
+  margin:20px;
+  cursor: pointer;
 }
 
 .list {
-  list-style-type: none;
+  /* list-style-type: none;
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .list-item {
-  margin: 10px 0;
+  /* margin: 10px 0;
   display: flex;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .video-button,
@@ -101,6 +79,24 @@
 
 .selected {
   background-color: black;
+}
+
+.video-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background-color: black;
+}
+
+.credits-video {
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 @media screen and (max-width: 768px) {

@@ -24,16 +24,14 @@ const Contact = () => {
     return (
         <div className="contact-container">
             <div className='contact-box'>
-                <p className='contact-text'>Sebastian Blanco is a Director of Photography from Costa Rica, based in Mexico City
-                    {process.env.REACT_APP_LA_MODE === "1" ? (
-                       "."  
-                    ) : (
-                        " & Los Angeles."
-                    )}</p>
                 <table className='contact-table'>
                     <tr>
+                        <td className='contact-table-title'>BIO</td>
+                        <td className='contact-table-text'>Sebastián Blanco is a Costa Rican Director of Photography and Photographer based between Mexico City and Los Angeles. His visual language was shaped through skateboarding, documenting his surroundings and close collaborators. He works across music videos, narrative, and commercial projects. He was part of the ASC Vision Mentorship Program (2023–2024).</td>
+                    </tr>
+                    <tr>
                         <td className='contact-table-title'>CLIENTS & PRODUCTION COMPANIES</td>
-                        <td className='contact-table-text'>Dior, Spotify, Corona, LANDIA, The LIFT, Amazon Prime, The Maestros, Chevrolet, Sony Music, adidas Originals.</td>
+                        <td className='contact-table-text'>adidas Originals, Ford, Corona, New Balance, Dior, Sony Music, Uber, Chevrolet & Stink Films, LANDIA, The LIFT, Violeta Films, Another Video</td>
                     </tr>
                     <tr>
                         <td className='contact-table-title'>EMAIL</td>
@@ -52,6 +50,10 @@ const Contact = () => {
                 )}
                 <div className='contact-back-button'>
                     <Link to="/">BACK</Link>
+                </div>
+                <div className='photos-box'>
+                    <img src={process.env.PUBLIC_URL + "/nikon-3.JPG"} className="still-image-contact" />
+                    <img src={process.env.PUBLIC_URL + "/sbb.jpg"} className="still-image-contact" />
                 </div>
             </div>
         </div >

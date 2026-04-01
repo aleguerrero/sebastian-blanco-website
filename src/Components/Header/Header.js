@@ -32,28 +32,62 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
             style={{
                 backgroundColor: hoveredProject ? `transparent` : '',
             }}>
-            <div className='header-block'>
-                <ul className='header-ul'>
-                    <div className={`header-name`}>
-                        <li onClick={handleHeaderClick}><Link to="/">SEBASTIAN BLANCO</Link></li>
+            {isMobile ? (
+                <div>
+                    <ul className='header-ul'>
+                        <div className={`header-name`}>
+                            <li onClick={handleHeaderClick}>
+                                <Link to="/">
+                                    <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
+                                    <p className='dp-title'>DIRECTOR OF PHOTOGRAPHY</p>
+                                </Link>
+                            </li>
+                        </div>
+                    </ul>
+                    <div className='header-block'>
+                        <ul className='header-menu'>
+                            <div>
+                                <li onClick={handleHeaderClick}><Link to="/">WORK</Link></li>
+                                <li onClick={handleHeaderClick}><Link to="/stills">STILLS</Link></li>
+                                <li onClick={handleHeaderClick}><Link to="/contact">CONTACT</Link></li>
+                            </div>
+                        </ul>
                     </div>
-                </ul>
-                <ul className='header-menu'>
-                    <li onClick={handleHeaderClick}><Link to="/">WORK</Link></li>
-                    <li onClick={handleHeaderClick}><Link to="/stills">STILLS</Link></li>
-                    <li onClick={handleHeaderClick}><Link to="/contact">CONTACT</Link></li>
-                </ul>
-                <ul className='header-links'>
-                    <div className='instagram-logo'>
-                        <a href="https://www.instagram.com/sebstnblanco/" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/instagramlogo.png"} className={`${selected ? 'invert' : ''}`} alt="instagram" /></a>
-                    </div>
-                    <div className='vimeo-logo'>
-                        <a href="https://vimeo.com/sebastianblanco" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/vimeologo.png"} alt="vimeo" className={`${selected ? 'invert' : ''}`} /></a>
-                    </div>
-                </ul>
-            </div>
-        </div>
-    )
-}
+                </div>
+            ) : (
+                <div className='header-block'>
+                    <ul className='header-menu'>
+                        <div>
+                            <li onClick={handleHeaderClick}><Link to="/">SELECTED WORK</Link></li>
+                            <li onClick={handleHeaderClick}><Link to="/commercial">COMMERCIAL</Link></li>
+                            <li onClick={handleHeaderClick}><Link to="/music_videos">MUSIC VIDEOS</Link></li>
+                            <li onClick={handleHeaderClick}><Link to="/stills">STILLS</Link></li>
+                            <li onClick={handleHeaderClick}><Link to="/contact">CONTACT</Link></li>
+                        </div>
 
+                    </ul>
+                    <ul className='header-ul'>
+                        <div className={`header-name`}>
+                            <li onClick={handleHeaderClick}>
+                                <Link to="/">
+                                    <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
+                                    <p className='dp-title'>DIRECTOR OF PHOTOGRAPHY</p>
+                                </Link>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul className='header-links'>
+                        <div className='instagram-logo'>
+                            <a href="https://www.instagram.com/sebstnblanco/" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/instagramlogo.png"} className={`${selected ? 'invert' : ''}`} alt="instagram" /></a>
+                        </div>
+                        <div className='vimeo-logo'>
+                            <a href="https://vimeo.com/sebastianblanco" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/vimeologo.png"} alt="vimeo" className={`${selected ? 'invert' : ''}`} /></a>
+                        </div>
+                    </ul>
+                </div>
+            )
+            }
+        </div>
+    );
+}
 export default Header;
