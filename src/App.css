@@ -13,11 +13,12 @@
 }
 
 .app-container {
+  /* height: 100dvh; */
   transition: background-color 0.5s ease-in-out;
 }
 
 #myVideo {
-  width: 500px;
+  width: 100%;
 }
 
 .fade-in {
@@ -29,32 +30,37 @@
 }
 
 .title {
+  font-family: "Courier New", Courier, monospace;
   margin-bottom: 5px;
+  font-size: 0.8em;
 }
 
 .list-container {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .video-container-prev {
-  margin:20px;
+  margin: 20px;
   cursor: pointer;
+  display: flex; /* add this */
+  flex-direction: column; /* add this */
 }
 
-.list {
-  /* list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; */
+.video-container-prev > div {
+  display: flex; /* add this */
+  flex-direction: column; /* add this */
+  flex: 1; /* add this — makes it grow to fill the height */
 }
 
-.list-item {
-  /* margin: 10px 0;
-  display: flex;
-  justify-content: center; */
+.video-container-prev video {
+  flex: 1; /* add this — video expands to fill remaining space */
+  object-fit: cover; /* add this — fills without distortion */
+  width: 100%;
+  min-height: 0; /* needed in some browsers to allow shrinking */
 }
 
 .video-button,
@@ -82,7 +88,6 @@
 }
 
 .video-container {
-  width: 100%;
   margin: 0 auto;
   height: 90vh;
   display: flex;
@@ -101,8 +106,15 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    height: 93dvh;
+    margin-top: 20dvh;
+    width: 100%;
     text-align: left;
+  }
+
+  .credits-video {
+    margin-top: 20px;
+    font-size: 0.8em;
+    width: 90%;
   }
 
   .list {
@@ -110,6 +122,12 @@
     margin: 0;
     justify-content: flex-start;
     overflow: scroll;
+  }
+
+  .list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .list-item {
@@ -126,7 +144,7 @@
   }
 
   .video-container {
-    height: 93dvh;
+    height: 100dvh;
   }
 
   .video-preview-container {

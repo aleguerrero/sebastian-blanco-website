@@ -1,7 +1,7 @@
 .stills-container {
   height: 90vh;
   width: 100vw;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   white-space: nowrap;
   overflow: scroll;
   display: flex;
@@ -11,8 +11,8 @@
 .pics-row {
   display: flex;
   align-items: center;
-  width: 600px;
-  height: 600px;
+  /* width: 600px;
+  height: 600px; */
 }
 
 img {
@@ -21,7 +21,11 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .app-container {
+    height: auto;
+  }
   .stills-container {
-    height: 93dvh;
+    margin-top: 23dvh;
+    height: 77dvh;
   }
 }

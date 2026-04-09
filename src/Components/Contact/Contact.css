@@ -27,20 +27,25 @@
 
 .contact-table {
   width: 100%;
+  table-layout: fixed;
 }
 
 .contact-table-title {
   width: 20%;
   font-weight: bold;
   padding-right: 2px;
+  word-wrap: break-word;
+  vertical-align: top;
 }
 
 .contact-table-text {
   width: 80%;
+  word-wrap: break-word;
 }
 
-.contact-table tr {
-  height: 100px;
+.contact-table td {
+  padding-top: 20px;    
+  padding-bottom: 20px; 
 }
 
 .contact-back-button {
@@ -61,35 +66,62 @@
   height: 200px;
 }
 
+.contact-table-text ul {
+  display: revert;
+}
+
+.contact-table-text ul li {
+  margin: 0;
+}
+
 
 @media screen and (max-width: 768px) {
+
   .contact-container {
-    height: 93vh;
+    margin-top: 23dvh;
   }
 
   .contact-box {
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: revert;
+    align-items: revert;
   }
+
+  /* .contact-table {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  } */
 
   .contact-links {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
   }
 
   .contact-table-title {
-    width: 50%;
+    width: 35%;
   }
   
   .contact-table-text {
-    width: 50%;
+    width: 65%;
   }
 
-  .contact-back-button {
+  .photos-box {
+    width: 100%;
+    margin-bottom: 10px;
     display: flex;
-    position: absolute;
-    bottom: 5%;
-    right: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .still-image-contact {
+    width: 150px;
+    height: 150px;
+    margin: 0;
   }
 }

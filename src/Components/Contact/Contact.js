@@ -24,6 +24,12 @@ const Contact = () => {
     return (
         <div className="contact-container">
             <div className='contact-box'>
+                {width <= 768 && (
+                    <div className='photos-box'>
+                        <img alt="photo1" src={process.env.PUBLIC_URL + "/nikon-3.JPG"} className="still-image-contact" />
+                        <img alt="photo2" src={process.env.PUBLIC_URL + "/sbb.jpg"} className="still-image-contact" />
+                    </div>
+                )}
                 <table className='contact-table'>
                     <tr>
                         <td className='contact-table-title'>BIO</td>
@@ -34,8 +40,27 @@ const Contact = () => {
                         <td className='contact-table-text'>adidas Originals, Ford, Corona, New Balance, Dior, Sony Music, Uber, Chevrolet & Stink Films, LANDIA, The LIFT, Violeta Films, Another Video</td>
                     </tr>
                     <tr>
+                        <td className='contact-table-title'>Directors</td>
+                        <td className='contact-table-text'>Chris Cadaver & Julian Burgueno, Sam Youkilis, Sebas Coto, Angie Bárcenas, Kevin Rosales</td>
+                    </tr>
+                    <tr>
                         <td className='contact-table-title'>EMAIL</td>
                         <td className='contact-table-text'><a href="mailto:sebastianblancodp@gmail.com">sebastianblancodp@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td className='contact-table-title'>Socials</td>
+                        <td className='contact-table-text'><a href="https://www.instagram.com/sebstnblanco/" target="_blank" rel="noreferrer">Instagram</a> and <a href="https://vimeo.com/sebastianblanco" target="_blank" rel="noreferrer">Vimeo</a></td>
+                    </tr>
+                    <tr>
+                        <td className='contact-table-title'>Press</td>
+                        <td className='contact-table-text'>
+                            <ul>
+                                <li><a href="https://www.nowness.com/series/just-dance/a-machine-that-trembles-rebeca-becerra-cusi-cesar-brodermann" target="_blank" rel="noreferrer">NOWNESS</a></li>
+                                <li><a href="https://www.directory.work/" target="_blank" rel="noreferrer">DIRECTORY WORK</a></li>
+                                <li><a href="https://directorslibrary.com/2020/latest/music-videos/aguita-gabriel-garzon-montano/" target="_blank" rel="noreferrer">DIRECTOR’S LIBRARY</a></li>
+                                <li><a href="https://delfino.cr/2025/11/talento-costarricense-director-de-fotografia-sebastian-blanco-suma-nuevo-reconocimiento-en-nowness" target="_blank" rel="noreferrer">DELFINOCR</a></li>
+                            </ul>
+                        </td>
                     </tr>
                 </table>
                 {width <= 768 && (
@@ -48,13 +73,13 @@ const Contact = () => {
                         </div>
                     </div>
                 )}
-                <div className='contact-back-button'>
-                    <Link to="/">BACK</Link>
-                </div>
-                <div className='photos-box'>
-                    <img alt="photo1" src={process.env.PUBLIC_URL + "/nikon-3.JPG"} className="still-image-contact" />
-                    <img alt="photo2" src={process.env.PUBLIC_URL + "/sbb.jpg"} className="still-image-contact" />
-                </div>
+
+                {width >= 768 && (
+                    <div className='photos-box'>
+                        <img alt="photo1" src={process.env.PUBLIC_URL + "/nikon-3.JPG"} className="still-image-contact" />
+                        <img alt="photo2" src={process.env.PUBLIC_URL + "/sbb.jpg"} className="still-image-contact" />
+                    </div>
+                )}
             </div>
         </div >
     );
