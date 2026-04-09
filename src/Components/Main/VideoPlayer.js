@@ -1,24 +1,26 @@
 import allProjects from './../../projects.json'
 import { useParams, useNavigate } from 'react-router-dom';
 import ReactPlayer from 'react-player/vimeo';
-import { useState } from 'react';
 
 const VideoPlayer = () => {
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+    const isMobile = window.innerWidth <= 768;
     const { slug } = useParams();
     const navigate = useNavigate();
     const project = allProjects.projects[slug];
 
     return (
         <div className="video-container" >
-            <div className='credits-video'>
-                DIRECTED BY {project.directed_by}
-                <br />
-                PRODUCTION COMPANY {project.production_company}
+            <div className='credits-block'>
+                <div className='credits-video'>
+                    DIRECTED BY {project.directed_by}
+                    <br />
+                    PRODUCTION COMPANY {project.production_company}
+                </div>
             </div>
             <ReactPlayer
                 url={project.url}
-                width={`${isMobile ? "90%" : "75%"}`}
+                width={`${isMobile ? "100%" : "75%"}`}
+                height="100%"
                 controls={true}
                 config={{
                     vimeo: {

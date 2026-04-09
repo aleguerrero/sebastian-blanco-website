@@ -111,10 +111,17 @@
     text-align: left;
   }
 
+  .credits-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   .credits-video {
-    margin-top: 20px;
+    margin-top: 20dvh;
     font-size: 0.8em;
     width: 90%;
+    z-index: 10;
   }
 
   .list {
@@ -135,6 +142,14 @@
     flex-direction: column;
   }
 
+  .video-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .video-button {
     width: 100%;
     display: flex;
@@ -144,7 +159,9 @@
   }
 
   .video-container {
+    /* margin-top: 20dvh; */
     height: 100dvh;
+    display: revert;
   }
 
   .video-preview-container {

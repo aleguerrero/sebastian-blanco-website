@@ -146,6 +146,11 @@ li {
   -webkit-filter: invert(100%);
 } */
 
+.name-logo {
+  height: auto;
+  width: 500px;
+}
+
 .link-name {
   display: flex;
   justify-content: center;
@@ -154,12 +159,14 @@ li {
 @media screen and (max-width: 768px) {
   .header-container {
     background-color: black;
+    height: 20dvh;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     margin: 0;
-    
+    display: flex;
+    justify-items: center;
   }
 
   .header-block {
@@ -186,7 +193,6 @@ li {
 
   .header-ul {
     width: 100%;
-    margin-top: 10px;
   }
 
   .name {
@@ -197,8 +203,8 @@ li {
     font-size: 0.8em;
   }
 
-  .header-menu-container {
-    margin-top: 20px;
+  .header-name {
+    margin: 0;
   }
 
   .header-menu {
@@ -217,5 +223,10 @@ li {
 
   .mobile {
     z-index: 10;
+  }
+
+  .name-logo {
+    width: 100%;
+    margin: 0;
   }
 }

@@ -30,16 +30,15 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
             }}>
             {isMobile ? (
                 <div className='header-block'>
-                    <ul className='header-ul'>
+                    <div className='header-ul'>
                         <div className={`header-name`}>
-                            <li onClick={handleHeaderClick}>
-                                <Link to="/">
-                                    <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
-                                    <p className='dp-title'>DIRECTOR OF PHOTOGRAPHY</p>
-                                </Link>
-                            </li>
+                            <Link to="/">
+                                {/* <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
+                                <p className='dp-title'>DIRECTOR OF PHOTOGRAPHY</p> */}
+                                <img src={`${process.env.PUBLIC_URL}/logo.png`} alt='logo' className='name-logo'/>
+                            </Link>
                         </div>
-                    </ul>
+                    </div>
                     <div className='header-menu-container'>
                         <ul className='header-menu'>
                             <li onClick={handleHeaderClick}><Link to="/">SELECTED WORK</Link></li>
@@ -62,16 +61,15 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
                         </div>
 
                     </ul>
-                    <ul className='header-ul'>
+                    <div className='header-ul'>
                         <div className={`header-name`}>
-                            <li onClick={handleHeaderClick}>
-                                <Link to="/">
-                                    <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
-                                    <p className='dp-title'>DIRECTOR OF PHOTOGRAPHY</p>
-                                </Link>
-                            </li>
+                            <Link to="/">
+                                {/* <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
+                                <p className='dp-title'>DIRECTOR OF PHOTOGRAPHY</p> */}
+                                <img src={`${process.env.PUBLIC_URL}/logo.png`} alt='logo' className='name-logo'/>
+                            </Link>
                         </div>
-                    </ul>
+                    </div>
                     <ul className='header-links'>
                         <div className='instagram-logo'>
                             <a href="https://www.instagram.com/sebstnblanco/" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/instagramlogo.png"} className={`${selected ? 'invert' : ''}`} alt="instagram" /></a>
