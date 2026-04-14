@@ -8,7 +8,7 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
     function handleWindowsSizeChange() {
-        setIsMobile(window.innerWidth);
+        setIsMobile(window.innerWidth <= 768);
     }
 
     useEffect(() => {
@@ -33,9 +33,8 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
                     <div className='header-ul'>
                         <div className={`header-name`}>
                             <Link to="/">
-                                {/* <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
-                                <p className='dp-title'>DIRECTOR OF PHOTOGRAPHY</p> */}
-                                <img src={`${process.env.PUBLIC_URL}/logo.png`} alt='logo' className='name-logo'/>
+                                <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
+                                <p className='dp-title gfs-didot-regular'>DIRECTOR OF PHOTOGRAPHY</p>
                             </Link>
                         </div>
                     </div>
@@ -51,24 +50,25 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
                 </div>
             ) : (
                 <div className='header-block'>
-                    <ul className='header-menu'>
-                        <div>
-                            <li onClick={handleHeaderClick}><Link to="/">SELECTED WORK</Link></li>
-                            <li onClick={handleHeaderClick}><Link to="/commercial">COMMERCIAL</Link></li>
-                            <li onClick={handleHeaderClick}><Link to="/music_videos">MUSIC VIDEOS</Link></li>
-                            <li onClick={handleHeaderClick}><Link to="/stills">STILLS</Link></li>
-                            <li onClick={handleHeaderClick}><Link to="/contact">CONTACT</Link></li>
-                        </div>
+                    <div className='left-header'>
+                        <div className='header-ul'>
+                            <div className={`header-name`}>
+                                <Link to="/">
+                                    <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
+                                    <p className='dp-title gfs-didot-regular'>DIRECTOR OF PHOTOGRAPHY</p>
 
-                    </ul>
-                    <div className='header-ul'>
-                        <div className={`header-name`}>
-                            <Link to="/">
-                                {/* <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
-                                <p className='dp-title'>DIRECTOR OF PHOTOGRAPHY</p> */}
-                                <img src={`${process.env.PUBLIC_URL}/logo.png`} alt='logo' className='name-logo'/>
-                            </Link>
+                                </Link>
+                            </div>
                         </div>
+                        <ul className='header-menu'>
+                            <div>
+                                <li onClick={handleHeaderClick}><Link to="/">SELECTED WORK</Link></li>
+                                <li onClick={handleHeaderClick}><Link to="/commercial">COMMERCIAL</Link></li>
+                                <li onClick={handleHeaderClick}><Link to="/music_videos">MUSIC VIDEOS</Link></li>
+                                <li onClick={handleHeaderClick}><Link to="/stills">STILLS</Link></li>
+                                <li onClick={handleHeaderClick}><Link to="/contact">CONTACT</Link></li>
+                            </div>
+                        </ul>
                     </div>
                     <ul className='header-links'>
                         <div className='instagram-logo'>
