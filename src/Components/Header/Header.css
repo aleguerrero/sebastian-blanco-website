@@ -2,7 +2,13 @@
 
 .gfs-didot-regular {
   font-family: "GFS Didot", serif;
-  font-weight: 700;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.gfs-didot-title {
+  font-family: "GFS Didot", serif;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -85,9 +91,9 @@ ul {
 }
 
 .name {
-  font-size: 1em;
+  font-size: 1.3em;
+  letter-spacing: 1.5px;
   margin: 0;
-  letter-spacing: 1px;
 }
 
 .dp-title {

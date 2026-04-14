@@ -34,7 +34,7 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
                         <div className={`header-name`}>
                             <Link to="/">
                                 <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
-                                <p className='dp-title courier'>DIRECTOR OF PHOTOGRAPHY</p>
+                                <p className='dp-title gfs-didot-title'>DIRECTOR OF PHOTOGRAPHY</p>
                             </Link>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
                             <div className={`header-name`}>
                                 <Link to="/">
                                     <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
-                                    <p className='dp-title courier'>DIRECTOR OF PHOTOGRAPHY</p>
+                                    <p className='dp-title gfs-didot-title'>DIRECTOR OF PHOTOGRAPHY</p>
 
                                 </Link>
                             </div>
@@ -70,14 +70,14 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
                             </div>
                         </ul>
                     </div>
-                    <ul className='header-links'>
+                    <div className='header-links'>
                         <div className='instagram-logo'>
                             <a href="https://www.instagram.com/sebstnblanco/" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/instagramlogo.png"} className={`${selected ? 'invert' : ''}`} alt="instagram" /></a>
                         </div>
                         <div className='vimeo-logo'>
                             <a href="https://vimeo.com/sebastianblanco" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/vimeologo.png"} alt="vimeo" className={`${selected ? 'invert' : ''}`} /></a>
                         </div>
-                    </ul>
+                    </div>
                 </div>
             )
             }
