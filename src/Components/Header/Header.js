@@ -33,8 +33,8 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
                     <div className='header-ul'>
                         <div className={`header-name`}>
                             <Link to="/">
-                                <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
-                                <p className='dp-title gfs-didot-title'>DIRECTOR OF PHOTOGRAPHY</p>
+                                <p className='name times-regular'>SEBASTIÁN BLANCO</p>
+                                <p className='dp-title times-title'>DIRECTOR OF PHOTOGRAPHY</p>
                             </Link>
                         </div>
                     </div>
@@ -54,8 +54,8 @@ const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedV
                         <div className='header-ul'>
                             <div className={`header-name`}>
                                 <Link to="/">
-                                    <p className='name gfs-didot-regular'>SEBASTIÁN BLANCO</p>
-                                    <p className='dp-title gfs-didot-title'>DIRECTOR OF PHOTOGRAPHY</p>
+                                    <p className='name times-regular'>SEBASTIÁN BLANCO</p>
+                                    <p className='dp-title times-title'>DIRECTOR OF PHOTOGRAPHY</p>
 
                                 </Link>
                             </div>

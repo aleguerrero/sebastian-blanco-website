@@ -50,14 +50,13 @@
 .video-container-prev {
   margin: 20px;
   cursor: pointer;
-  display: flex; /* add this */
-  flex-direction: column; /* add this */
+  flex-direction: column;
 }
 
 .video-container-prev > div {
-  display: flex; /* add this */
-  flex-direction: column; /* add this */
-  flex: 1; /* add this — makes it grow to fill the height */
+  display: flex; 
+  flex-direction: column;
+  flex: 1;
 }
 
 .video-container-prev video {

@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
 
-.gfs-didot-regular {
-  font-family: "GFS Didot", serif;
-  font-weight: 500;
-  font-style: normal;
+.times-regular {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-style: bold;
 }
 
-.gfs-didot-title {
-  font-family: "GFS Didot", serif;
+.times-title {
+  font-family: "Times New Roman", Times, serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -140,8 +140,8 @@ li {
 }
 
 .vimeo-logo a img {
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
   margin: 0;
   margin-left: 20px;
 }
