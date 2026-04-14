@@ -40,21 +40,19 @@
 }
 
 .list-container {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr; /* instead of auto auto auto */
 }
 
 .video-container-prev {
   margin: 20px;
   cursor: pointer;
   flex-direction: column;
+  display: flex;
 }
 
 .video-container-prev > div {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   flex: 1;
 }
@@ -100,7 +98,6 @@
   position: relative;
   background-color: black;
 }
-
 
 .credits-block {
   width: 75%;
