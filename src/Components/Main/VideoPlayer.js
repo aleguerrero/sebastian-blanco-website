@@ -11,7 +11,7 @@ const VideoPlayer = () => {
     return (
         <div className="video-container" >
             <div className='credits-block'>
-                <div className='credits-video'>
+                <div className='credits-video courier'>
                     DIRECTED BY {project.directed_by}
                     <br />
                     PRODUCTION COMPANY {project.production_company}
