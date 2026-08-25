@@ -24,9 +24,21 @@ const Contact = () => {
         <div className="contact-container">
             <div className='contact-box'>
                 {width <= 768 && (
-                    <div className='photos-box'>
-                        <img alt="photo1" src={process.env.PUBLIC_URL + "/nikon-3.JPG"} className="still-image-contact" />
-                        <img alt="photo2" src={process.env.PUBLIC_URL + "/sbb.jpg"} className="still-image-contact" />
+                    <div className='photos-container'>
+                        <div className='photos-box'>
+                            <img alt="photo1" src={process.env.PUBLIC_URL + "/nikon-3.JPG"} className="still-image-contact" />
+                            <img alt="photo2" src={process.env.PUBLIC_URL + "/sbb.jpg"} className="still-image-contact" />
+                        </div>
+                        <div className='representative-box times-text'>
+                            <div className='rep-title-box'>
+                                <div className='rep-text rep-title'>Represented by</div> <img alt="logoborn" src={process.env.PUBLIC_URL + "/logoborn.svg"} className='logo-born'></img>
+                            </div>
+                            <div className='rep-info-box'>
+                                <div className='rep-text'>Xavier Mari</div>
+                                <div className='rep-text'><a href="mailto:za@lagence.tv" className='rep-text'>za@lagence.tv</a></div>
+                                <div className='rep-text'>+55 11 99695-7401</div>
+                            </div>
+                        </div>
                     </div>
                 )}
                 <table className='contact-table'>
@@ -78,6 +90,16 @@ const Contact = () => {
                         <div className='photos-box'>
                             <img alt="photo1" src={process.env.PUBLIC_URL + "/nikon-3.JPG"} className="still-image-contact" />
                             <img alt="photo2" src={process.env.PUBLIC_URL + "/sbb.jpg"} className="still-image-contact" />
+                        </div>
+                        <div className='representative-box times-text'>
+                            <div className='rep-title-box'>
+                                <div className='rep-text rep-title'>Represented by</div> <img alt="logoborn" src={process.env.PUBLIC_URL + "/logoborn.svg"} className='logo-born'></img>
+                            </div>
+                            <div className='rep-info-box'>
+                                <div className='rep-text'>Xavier Mari</div>
+                                <div className='rep-text'><a href="mailto:za@lagence.tv" className='rep-text'>za@lagence.tv</a></div>
+                                <div className='rep-text'>+55 11 99695-7401</div>
+                            </div>
                         </div>
                     </div>
                 )}
