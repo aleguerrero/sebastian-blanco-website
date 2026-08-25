@@ -36,7 +36,7 @@ const Contact = () => {
                             <div className='rep-info-box'>
                                 <div className=''>Xavier Mari</div>
                                 <div className=''><a href="mailto:za@lagence.tv" className=''>za@lagence.tv</a></div>
-                                <div className=''>+55 11 99695-7401</div>
+                                <div className=''><a href="tel:+55 11 99695-7401" className=''>+55 11 99695-7401</a></div>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ const Contact = () => {
                             <div className='rep-info-box'>
                                 <div className=''>Xavier Mari</div>
                                 <div className=''><a href="mailto:za@lagence.tv" className=''>za@lagence.tv</a></div>
-                                <div className=''>+55 11 99695-7401</div>
+                                <div className=''><a href="tel:+55 11 99695-7401" className=''>+55 11 99695-7401</a></div>
                             </div>
                         </div>
                     </div>
