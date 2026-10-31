@@ -1,0 +1,58 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.diary-container {
+  width: 100%;
+  height: 95dvh;
+  padding-top: 5dvh;
+  display: flex;
+  flex-direction: row;
+}
+
+.diary-container {
+  width: 100%;
+}
+
+.diary-container-block::-webkit-scrollbar {
+  display: none;
+}
+
+.diary-container-block {
+  width: 80%;
+  overflow-y: auto;
+  height: 100dvh;
+  margin-top: -5dvh;
+  padding-top: 5dvh;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  animation: fadeIn 0.2s ease-in-out forwards;
+}
+
+.diary-block {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.diary-inside-block {
+  width: 80%;
+}
+
+.diary-picture-block {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.diary-picture-img {
+  width: 100%;
+}

@@ -1,205 +1,585 @@
 {
   "projects": {
     "akriila-x-latin-mafia": {
-      "title": "AKRIILA X LATIN MAFIA",
-      "production_company": "VALENTINE WORLDWIDE",
-      "directed_by": "CHRIS CADAVER & JULIAN BURGUENO",
+      "title": "Akriila x Latin Mafia - Mal Comunicada",
+      "production_company": "Valentine Worldwide",
+      "directed_by": "Chris Cadaver & Julian Burgueno",
       "url": "https://vimeo.com/1087386510",
-      "preview": "/previews/malcomunicada.mp4"
+      "preview": "/previews/malcomunicada.mp4",
+      "stills_folder": "Mal_Comunicada",
+      "stills": [
+        "malcomunicada_1.1.1.webp",
+        "malcomunicada_1.1.2.webp",
+        "malcomunicada_1.1.3.webp",
+        "malcomunicada_1.1.4.webp",
+        "malcomunicada_1.1.5.webp",
+        "malcomunicada_1.1.6.webp",
+        "malcomunicada_1.1.7.webp",
+        "malcomunicada_1.1.8.webp",
+        "malcomunicada_1.1.9.webp",
+        "malcomunicada_1.1.10.webp",
+        "malcomunicada_1.1.11.webp"
+      ]
     },
     "adizero-evo-sl-x": {
-      "title": "ADIZERO EVO SL X",
-      "production_company": "NEW CYCLE",
-      "directed_by": "VALENTIN CARIDE",
+      "title": "Adizero EVO SL",
+      "production_company": "New Cycle",
+      "directed_by": "Valentin Caride",
       "url": "https://vimeo.com/1163693794",
-      "preview": "/previews/adizeroevosl.mp4"
+      "preview": "/previews/adizeroevosl.mp4",
+      "stills_folder": "Adizero",
+      "stills": [
+        "adizero_1.1.1.webp",
+        "adizero_1.1.2.webp",
+        "adizero_1.1.3.webp",
+        "adizero_1.1.4.webp",
+        "adizero_1.1.5.webp",
+        "adizero_1.1.6.webp",
+        "adizero_1.1.7.webp",
+        "adizero_1.1.8.webp",
+        "adizero_1.1.9.webp",
+        "adizero_1.1.10.webp"
+      ]
     },
     "dior-x-elle-mexico": {
-      "title": "DIOR X ELLE MEXICO",
-      "production_company": "MUTUAL MX",
-      "directed_by": "MONI LEON",
+      "title": "Dior x ELLE Mexico",
+      "production_company": "Mutual MX",
+      "directed_by": "Moni Leon",
       "url": "https://vimeo.com/962736308",
-      "preview": "/previews/dior.mp4"
+      "preview": "/previews/dior.mp4",
+      "stills_folder": "Dior",
+      "stills": [
+        "Dior_1.1.1.webp",
+        "Dior_1.1.2.webp",
+        "Dior_1.1.3.webp",
+        "Dior_1.1.4.webp",
+        "Dior_1.1.5.webp",
+        "Dior_1.1.6.webp",
+        "Dior_1.1.7.webp",
+        "Dior_1.1.8.webp",
+        "Dior_1.1.9.webp",
+        "Dior_1.1.10.webp",
+        "Dior_1.1.11.webp",
+        "Dior_1.1.12.webp",
+        "Dior_1.1.13.webp",
+        "Dior_1.1.14.webp",
+        "Dior_1.1.15.webp"
+      ]
     },
     "ford-pro-x": {
-      "title": "FORD PRO X",
-      "production_company": "LANDIA",
-      "directed_by": "KEVIN ROSALES",
+      "title": "Ford Pro",
+      "production_company": "Landia",
+      "directed_by": "Kevin Rosales",
       "url": "https://vimeo.com/1177781115/1ada0943ec",
-      "preview": "/previews/fordprox.mp4"
+      "preview": "/previews/fordprox.mp4",
+      "stills_folder": "Ford_Pro",
+      "stills": [
+        "fordpro_1.1.1.webp",
+        "fordpro_1.1.2.webp",
+        "fordpro_1.1.3.webp",
+        "fordpro_1.1.4.webp",
+        "fordpro_1.1.5.webp",
+        "fordpro_1.1.6.webp",
+        "fordpro_1.1.7.webp",
+        "fordpro_1.1.8.webp",
+        "fordpro_1.1.9.webp",
+        "fordpro_1.1.10.webp"
+      ]
     },
     "bad-habit": {
-      "title": "BAD HABIT",
-      "production_company": "MOMO ROOM",
-      "directed_by": "CHRIS CADAVER & JULIAN BURGUENO",
+      "title": "Bad Habit",
+      "production_company": "Momo Room",
+      "directed_by": "Chris Cadaver & Julian Burgueno",
       "url": "https://vimeo.com/1065167402",
-      "preview": "/previews/badhabit.mp4"
+      "preview": "/previews/badhabit.mp4",
+      "stills_folder": "Bad_habit",
+      "stills": [
+        "Badhabit_1.1.1.webp",
+        "Badhabit_1.1.2.webp",
+        "Badhabit_1.1.3.webp",
+        "Badhabit_1.1.4.webp",
+        "Badhabit_1.1.5.webp",
+        "Badhabit_1.1.6.webp",
+        "Badhabit_1.1.7.webp",
+        "Badhabit_1.1.8.webp",
+        "Badhabit_1.1.9.webp"
+      ]
     },
     "sofi-paez": {
-      "title": "SOFI PAEZ",
+      "title": "Sofi Paez - Water",
       "production_company": null,
-      "directed_by": null,
-      "url": "https://vimeo.com/965948039",
-      "preview": "/previews/sofipaez.mp4"
+      "directed_by": "Kevin Rosales",
+      "url": "https://vimeo.com/1241021787",
+      "preview": "/previews/sofipaez.mp4",
+      "stills_folder": "Water",
+      "stills": [
+        "Water_1.1.1.webp",
+        "Water_1.1.2.webp",
+        "Water_1.1.3.webp",
+        "Water_1.1.4.webp",
+        "Water_1.1.5.webp",
+        "Water_1.1.6.webp",
+        "Water_1.1.7.webp",
+        "Water_1.1.8.webp",
+        "Water_1.1.9.webp",
+        "Water_1.1.10.webp",
+        "Water_1.1.11.webp",
+        "Water_1.1.12.webp"
+      ]
     },
     "adidas-originals": {
-      "title": "ADIDAS ORIGINALS",
-      "production_company": "ARRE",
-      "directed_by": "EMILIO PICHARDO",
+      "title": "Adidas Originals",
+      "production_company": "Arre",
+      "directed_by": "Emilio Pichardo",
       "url": "https://vimeo.com/902639022",
-      "preview": "/previews/adidas.mp4"
+      "preview": "/previews/adidas.mp4",
+      "stills_folder": "adidas_Originals",
+      "stills": [
+        "adidasoriginals_1.1.3.webp",
+        "adidasoriginals_1.1.4.webp",
+        "adidasoriginals_1.1.5.webp",
+        "adidasoriginals_1.1.6.webp",
+        "adidasoriginals_1.1.7.webp"
+      ]
     },
     "new-balance-x-toluca": {
-      "title": "NEW BALANCE X TOLUCA",
-      "production_company": "TRAVESURA FILMS",
-      "directed_by": "SEBAS COTO",
+      "title": "New Balance x Toluca FC",
+      "production_company": "Travesura Films",
+      "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/1175641904",
-      "preview": "/previews/nbgif.mp4"
+      "preview": "/previews/nbgif.mp4",
+      "stills_folder": "New_Balance",
+      "stills": [
+        "newbalance_1.1.1.webp",
+        "newbalance_1.1.2.webp",
+        "newbalance_1.1.3.webp",
+        "newbalance_1.1.4.webp",
+        "newbalance_1.1.5.webp",
+        "newbalance_1.1.6.webp",
+        "newbalance_1.1.7.webp",
+        "newbalance_1.1.8.webp",
+        "newbalance_1.1.9.webp"
+      ]
     },
     "debut": {
-      "title": "DEBUT",
-      "production_company": "NINE",
-      "directed_by": "SEBAS COTO",
+      "title": "Debut",
+      "production_company": "Nine",
+      "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/1120417964",
-      "preview": "/previews/debut.mp4"
+      "preview": "/previews/debut.mp4",
+      "stills_folder": "Debut",
+      "stills": [
+        "debut_1.1.1.webp",
+        "debut_1.1.2.webp",
+        "debut_1.1.3.webp",
+        "debut_1.1.4.webp",
+        "debut_1.1.5.webp",
+        "debut_1.1.6.webp",
+        "debut_1.1.7.webp",
+        "debut_1.1.8.webp",
+        "debut_1.1.9.webp"
+      ]
     },
     "adidas-superstar-x-nsqk": {
-      "title": "ADIDAS SUPERSTAR X NSQK",
-      "production_company": "NEW CYCLE",
-      "directed_by": "SEBAS COTO",
+      "title": "Adidas Originals x NSQK",
+      "production_company": "New Cycle",
+      "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/1175598490",
-      "preview": "/previews/superstar.mp4"
+      "preview": "/previews/superstar.mp4",
+      "stills_folder": "adidas_superstar",
+      "stills": [
+        "adidassuperstar_1.1.1.webp",
+        "adidassuperstar_1.1.2.webp",
+        "adidassuperstar_1.1.3.webp",
+        "adidassuperstar_1.1.4.webp",
+        "adidassuperstar_1.1.5.webp",
+        "adidassuperstar_1.1.6.webp",
+        "adidassuperstar_1.1.7.webp",
+        "adidassuperstar_1.1.8.webp"
+      ]
     },
     "cruz-azul-x-novibet": {
-      "title": "CRUZ AZUL X NOVIBET",
-      "production_company": "MALEVO",
-      "directed_by": "DIEGO RIO",
+      "title": "Cruz Azul",
+      "production_company": "Malevo",
+      "directed_by": "Diego Rio",
       "url": "https://vimeo.com/1120418587",
-      "preview": "/previews/cruzazul.mp4"
-    },
-    "tease": {
-      "title": "TEASE",
-      "production_company": "MOMO ROOM",
-      "directed_by": "CAMILA ARROYO",
-      "url": "https://vimeo.com/1175787556",
-      "preview": "/previews/tease.mp4"
+      "preview": "/previews/cruzazul.mp4",
+      "stills_folder": "Cruz_Azul",
+      "stills": [
+        "CRUZAZUL_1.1.1.webp",
+        "CRUZAZUL_1.1.2.webp",
+        "CRUZAZUL_1.1.3.webp",
+        "CRUZAZUL_1.1.4.webp",
+        "CRUZAZUL_1.1.5.webp",
+        "CRUZAZUL_1.1.6.webp",
+        "CRUZAZUL_1.1.7.webp",
+        "CRUZAZUL_1.1.8.webp"
+      ]
     },
     "don-julio": {
-      "title": "DON JULIO",
-      "production_company": "LANDIA",
-      "directed_by": "KEVIN ROSALES",
+      "title": "Don Julio",
+      "production_company": "Landia",
+      "directed_by": "Kevin Rosales",
       "url": "https://vimeo.com/1175604872",
-      "preview": "/previews/donjulio.mp4"
+      "preview": "/previews/donjulio.mp4",
+      "stills_folder": "test",
+      "stills": [
+        "01.jpg",
+        "04.jpg",
+        "09.jpg",
+        "10.jpg",
+        "12.jpg"
+      ]
     },
     "mara-hoffman-x-oo": {
-      "title": "MARA HOFFMAN X OO",
-      "production_company": "MATERIA",
-      "directed_by": "MARAH HOFFMAN",
+      "title": "Mara Hoffman x OO",
+      "production_company": "Materia",
+      "directed_by": "Marah Hoffman",
       "url": "https://vimeo.com/913725910",
-      "preview": "/previews/marahhoffmanxoo.mp4"
+      "preview": "/previews/marahhoffmanxoo.mp4",
+      "stills_folder": "test",
+      "stills": [
+        "01.jpg",
+        "04.jpg",
+        "09.jpg",
+        "10.jpg",
+        "12.jpg"
+      ]
     },
     "broxel": {
-      "title": "BROXEL",
-      "production_company": "LAGUNA",
-      "directed_by": "MATEO ZAVALA & REX CORDOVA",
+      "title": "Broxel",
+      "production_company": "Laguna",
+      "directed_by": "Mateo Zavala & Rex Cordova",
       "url": "https://vimeo.com/978535256",
-      "preview": "/previews/broxel.mp4"
+      "preview": "/previews/broxel.mp4",
+      "stills_folder": "test",
+      "stills": [
+        "01.jpg",
+        "04.jpg",
+        "09.jpg",
+        "10.jpg",
+        "12.jpg"
+      ]
     },
     "cruda": {
-      "title": "CRUDA",
+      "title": "Cruda",
       "production_company": null,
       "directed_by": null,
       "url": "https://vimeo.com/814438844",
-      "preview": "/previews/cruda.mp4"
+      "preview": "/previews/cruda.mp4",
+      "stills_folder": "test",
+      "stills": [
+        "01.jpg",
+        "04.jpg",
+        "09.jpg",
+        "10.jpg",
+        "12.jpg"
+      ]
     },
     "debi-nova-live-performance": {
-      "title": "DEBI NOVA LIVE PERFORMANCE",
-      "production_company": "ANOTHER VIDEO",
-      "directed_by": "SEBAS COTO",
+      "title": "Debi Nova Live Performance",
+      "production_company": "Another Video",
+      "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/1106245278",
-      "preview": "/previews/debinovalive.mp4"
+      "preview": "/previews/debinovalive.mp4",
+      "stills_folder": "test",
+      "stills": [
+        "01.jpg",
+        "04.jpg",
+        "09.jpg",
+        "10.jpg",
+        "12.jpg"
+      ]
     },
     "tu-manera-de-amara-acoustic": {
-      "title": "TU MANERA DE AMAR (ACOUSTIC)",
-      "production_company": "ANOTHER VIDEO",
-      "directed_by": "SEBAS COTO",
+      "title": "Debi Nova - Tu Manera de Amar",
+      "production_company": "Another Video",
+      "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/1075170140",
-      "preview": "/previews/debiacustico.mp4"
+      "preview": "/previews/debiacustico.mp4",
+      "stills_folder": "Tu_manera_de_amar",
+      "stills": [
+        "tmda_1.1.1.webp",
+        "tmda_1.1.2.webp",
+        "tmda_1.1.3.webp",
+        "tmda_1.1.4.webp"
+      ]
     },
     "carlos-sadness": {
-      "title": "CARLOS SADNESS",
-      "production_company": "NINE",
-      "directed_by": "SEBAS COTO",
+      "title": "Carlos Sadness",
+      "production_company": "Nine",
+      "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/761548744",
-      "preview": "/previews/carlossadness.mp4"
+      "preview": "/previews/carlossadness.mp4",
+      "stills_folder": "test",
+      "stills": [
+        "01.jpg",
+        "04.jpg",
+        "09.jpg",
+        "10.jpg",
+        "12.jpg"
+      ]
     },
     "aguita-lyric-video": {
-      "title": "AGÜITA (LYRIC VIDEO)",
-      "production_company": "NINE",
-      "directed_by": "SEBAS COTO",
+      "title": "Agüita (Lyric Video)",
+      "production_company": "Nine",
+      "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/sebascoto/aguita",
-      "preview": "/previews/AGUITA.mp4"
+      "preview": "/previews/AGUITA.mp4",
+      "stills_folder": "Aguita",
+      "stills": [
+        "aguita_1.1.1.webp"
+      ]
     },
     "tom-y-jerry": {
-      "title": "TOM Y JERRY",
-      "production_company": "NINE",
-      "directed_by": "SEBAS COTO",
+      "title": "Tom y Jerry",
+      "production_company": "Nine",
+      "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/563495120",
-      "preview": "/previews/tomyjerry.mp4"
+      "preview": "/previews/tomyjerry.mp4",
+      "stills_folder": "test",
+      "stills": [
+        "01.jpg",
+        "04.jpg",
+        "09.jpg",
+        "10.jpg",
+        "12.jpg"
+      ]
     },
     "el-principe-idiota": {
-      "title": "EL PRÍNCIPE IDIOTA",
-      "production_company": "NINE",
-      "directed_by": "MARCEL MASIS",
+      "title": "El Príncipe Idiota",
+      "production_company": "Nine",
+      "directed_by": "Marcel Masis",
       "url": "https://vimeo.com/498937569",
-      "preview": "/previews/PRINCIPEIDIOTA.mp4"
+      "preview": "/previews/PRINCIPEIDIOTA.mp4",
+      "stills_folder": "test",
+      "stills": [
+        "01.jpg",
+        "04.jpg",
+        "09.jpg",
+        "10.jpg",
+        "12.jpg"
+      ]
     },
     "sangre-poderosa": {
-      "title": "SANGRE PODEROSA",
-      "production_company": "NINE",
-      "directed_by": "SEBAS COTO",
+      "title": "Sangre Poderosa",
+      "production_company": "Nine",
+      "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/814487005",
-      "preview": "/previews/sangrepoderosa.mp4"
+      "preview": "/previews/sangrepoderosa.mp4",
+      "stills_folder": "test",
+      "stills": [
+        "01.jpg",
+        "04.jpg",
+        "09.jpg",
+        "10.jpg",
+        "12.jpg"
+      ]
+    },
+    "apuntes-de-espacio": {
+      "title": "Apuntes de Espacio",
+      "directed_by": "Ale Kelly",
+      "url": "https://vimeo.com/813280266",
+      "preview": "/previews/apuntesdeespacio.mp4",
+      "stills_folder": "Apuntes_de_espacio",
+      "stills": [
+        "ade_1.1.1.webp",
+        "ade_1.1.2.webp",
+        "ade_1.1.3.webp",
+        "ade_1.1.4.webp",
+        "ade_1.1.5.webp",
+        "ade_1.1.6.webp"
+      ]
+    },
+    "a-machine-that-trembles": {
+      "title": "A machine that trembles",
+      "production_company": "Cicatriz",
+      "directed_by": "Rebeca Becerrada Cussi",
+      "url": "https://vimeo.com/1201483060",
+      "preview": "",
+      "stills_folder": "A_machine_that_trembles",
+      "stills": [
+        "Amtt_1.1.1.webp",
+        "Amtt_1.1.2.webp",
+        "Amtt_1.1.3.webp",
+        "Amtt_1.1.4.webp",
+        "Amtt_1.1.5.webp",
+        "Amtt_1.1.6.webp"
+      ]
+    },
+    "verla-ensayar": {
+      "title": "Verla Ensayar",
+      "production_company": "Momo Room",
+      "directed_by": "Camila Arroyo",
+      "url": "https://vimeo.com/1175787556",
+      "preview": "/previews/tease.mp4",
+      "stills_folder": "Verla_Ensayar",
+      "stills": [
+        "verlaensayar_1.1.1.webp",
+        "verlaensayar_1.1.2.webp",
+        "verlaensayar_1.1.3.webp",
+        "verlaensayar_1.1.4.webp",
+        "verlaensayar_1.1.5.webp",
+        "verlaensayar_1.1.6.webp",
+        "verlaensayar_1.1.7.webp",
+        "verlaensayar_1.1.8.webp",
+        "verlaensayar_1.1.9.webp"
+      ]
+    },
+    "camila-arroyo": {
+      "title": "Camila Arroyo",
+      "directed_by": "Junio",
+      "url": "https://vimeo.com/1211487021",
+      "preview": "",
+      "stills_folder": "Camila_Arroyo",
+      "stills": [
+        "camila_1.1.1.webp",
+        "camila_1.1.2.webp",
+        "camila_1.1.3.webp",
+        "camila_1.1.4.webp",
+        "camila_1.1.5.webp",
+        "camila_1.1.6.webp",
+        "camila_1.1.7.webp",
+        "camila_1.1.8.webp",
+        "camila_1.1.9.webp",
+        "camila_1.1.10.webp",
+        "camila_1.1.11.webp"
+      ]
+    },
+    "droste": {
+      "title": "Droste",
+      "production_company": "Laguna",
+      "directed_by": "Viridiana",
+      "url": "https://vimeo.com/1186399466",
+      "preview": "",
+      "stills_folder": "Droste",
+      "stills": [
+        "Droste_1.1.1.webp",
+        "Droste_1.1.2.webp",
+        "Droste_1.1.3.webp",
+        "Droste_1.1.4.webp",
+        "Droste_1.1.5.webp",
+        "Droste_1.1.6.webp"
+      ]
+    },
+    "cam-hicks": {
+      "title": "Cam Hicks",
+      "url": "https://vimeo.com/1112141578",
+      "preview": "",
+      "stills_folder": "Cam_Hicks",
+      "stills": [
+        "camhicks_1.1.1.webp",
+        "camhicks_1.1.2.webp",
+        "camhicks_1.1.3.webp",
+        "camhicks_1.1.4.webp",
+        "camhicks_1.1.5.webp",
+        "camhicks_1.1.6.webp",
+        "camhicks_1.1.7.webp",
+        "camhicks_1.1.8.webp"
+      ]
+    },
+    "xiaomi-17t": {
+      "title": "Xiaomi 17T",
+      "production_company": "Dorsia",
+      "directed_by": "Santa Lemos & Jazmin Wilhelm Esprow",
+      "url": "https://vimeo.com/1211023601",
+      "preview": "",
+      "stills_folder": "Xiaomi",
+      "stills": [
+        "xiaomi_1.1.1.webp",
+        "xiaomi_1.1.2.webp",
+        "xiaomi_1.1.3.webp",
+        "xiaomi_1.1.4.webp",
+        "xiaomi_1.1.5.webp",
+        "xiaomi_1.1.6.webp",
+        "xiaomi_1.1.7.webp",
+        "xiaomi_1.1.8.webp",
+        "xiaomi_1.1.9.webp",
+        "xiaomi_1.1.10.webp"
+      ]
+    },
+    "akriila-roger": {
+      "title": "Akriila - Roger",
+      "production_company": "Violeta Films",
+      "directed_by": "Chris Cadaver & Julian Burgueno",
+      "url": "https://vimeo.com/1211024830",
+      "preview": "",
+      "stills_folder": "Roger",
+      "stills": [
+        "roger_1.1.1.webp",
+        "roger_1.1.2.webp",
+        "roger_1.1.3.webp",
+        "roger_1.1.4.webp",
+        "roger_1.1.5.webp",
+        "roger_1.1.6.webp",
+        "roger_1.1.7.webp",
+        "roger_1.1.8.webp"
+      ]
+    },
+    "bad-bunny-intro-costa-rica": {
+      "title": "Bad Bunny Intro Costa Rica",
+      "production_company": "Rabbit House",
+      "creative_direction": "Janthony Oliveras",
+      "url": "",
+      "preview": "",
+      "stills_folder": "Bad_Bunny_Intro_CR",
+      "stills": [
+        "bbcr02_1.5.1.webp",
+        "bbcr02_1.9.1.webp",
+        "bbcr_1.1.1.webp"
+      ]
     }
   },
   "sections": {
-    "selected_work": [
-      "akriila-x-latin-mafia",
-      "adizero-evo-sl-x",
-      "dior-x-elle-mexico",
-      "ford-pro-x",
+    "narrative_documentary": [
       "bad-habit",
-      "sofi-paez",
-      "adidas-originals",
-      "new-balance-x-toluca",
-      "debut"
+      "apuntes-de-espacio",
+      "a-machine-that-trembles",
+      "verla-ensayar",
+      "camila-arroyo",
+      "droste",
+      "cam-hicks"
     ],
     "commercial": [
-      "adidas-superstar-x-nsqk",
-      "dior-x-elle-mexico",
-      "cruz-azul-x-novibet",
-      "adizero-evo-sl-x",
       "ford-pro-x",
-      "tease",
-      "don-julio",
-      "new-balance-x-toluca",
-      "debut",
-      "mara-hoffman-x-oo",
+      "adizero-evo-sl-x",
+      "dior-x-elle-mexico",
       "adidas-originals",
-      "broxel",
-      "cruda"
+      "cruz-azul-x-novibet",
+      "adidas-superstar-x-nsqk",
+      "debut",
+      "xiaomi-17t",
+      "new-balance-x-toluca"
     ],
-    "music_videos": [
+    "music": [
       "akriila-x-latin-mafia",
-      "debi-nova-live-performance",
-      "bad-habit",
       "sofi-paez",
+      "akriila-roger",
       "tu-manera-de-amara-acoustic",
-      "carlos-sadness",
-      "aguita-lyric-video",
-      "tom-y-jerry",
-      "el-principe-idiota",
-      "sangre-poderosa"
+      "bad-bunny-intro-costa-rica",
+      "aguita-lyric-video"
     ]
-  }
+  },
+  "stills": [
+    "/stills/webintro.jpg",
+    "/stills/webintro-2.jpg",
+    "/stills/webintro-3.jpg",
+    "/stills/webintro-4.jpg",
+    "/stills/webintro-5.jpg",
+    "/stills/webintro-6.jpg",
+    "/stills/webintro-7.jpg",
+    "/stills/webintro-8.jpg",
+    "/stills/webintro-9.jpg",
+    "/stills/webintro-10.jpg",
+    "/stills/webintro-11.jpg",
+    "/stills/webintro-12.jpg",
+    "/stills/webintro-13.jpg",
+    "/stills/webintro-14.jpg",
+    "/stills/webintro-15.jpg",
+    "/stills/webintro-16.jpg",
+    "/stills/webintro-17.jpg",
+    "/stills/webintro-18.jpg",
+    "/stills/webintro-19.jpg",
+    "/stills/webintro-20.jpg"
+  ]
 }

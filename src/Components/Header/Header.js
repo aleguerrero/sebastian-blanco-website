@@ -1,86 +1,27 @@
-// import './Header.css'
-import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import './Header.css';
 
-const Header = ({ selected, setSelectedVideoHeader, hoveredProject, setSelectedVideo }) => {
-
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
-
-    function handleWindowsSizeChange() {
-        setIsMobile(window.innerWidth <= 768);
-    }
-
-    useEffect(() => {
-        window.addEventListener('resize', handleWindowsSizeChange);
-        return () => {
-            window.removeEventListener('resize', handleWindowsSizeChange);
-        }
-    }, []);
-
-    const handleHeaderClick = () => {
-        setSelectedVideoHeader(false);
-        setSelectedVideo(null);
-    }
-
+const Header = () => {
     return (
-        <div className={`header-container ${selected ? 'selected' : ''}${isMobile ? 'mobile' : ''}`}
-            style={{
-                backgroundColor: hoveredProject ? `transparent` : '',
-            }}>
-            {isMobile ? (
-                <div className='header-block'>
-                    <div className='header-ul'>
-                        <div className={`header-name`}>
-                            <Link to="/">
-                                <p className='name times-regular'>SEBASTIÁN BLANCO</p>
-                                <p className='dp-title times-title'>DIRECTOR OF PHOTOGRAPHY</p>
-                            </Link>
-                        </div>
+        <div className='header-container'>
+            <div className='header-container-block'>
+                <div className='header-text-block'>
+                    <NavLink to="/" className={"header-name-block"}>
+                        Sebastian Blanco
+                    </NavLink>
+                </div>
+                <div className='header-text-block'>
+                    Director of Photography
+                </div>
+                <div className='links-block'>
+                    <div className='header-text-block'>
+                        <a href="https://www.instagram.com/sebstnblanco/" target="_blank" rel="noreferrer" className='header-link-block'>Instagram</a>, 
                     </div>
-                    <div className='header-menu-container'>
-                        <ul className='header-menu'>
-                            <li onClick={handleHeaderClick}><Link to="/">SELECTED WORK</Link></li>
-                            <li onClick={handleHeaderClick}><Link to="/commercial">COMMERCIAL</Link></li>
-                            <li onClick={handleHeaderClick}><Link to="/music_videos">MUSIC VIDEOS</Link></li>
-                            <li onClick={handleHeaderClick}><Link to="/stills">STILLS</Link></li>
-                            <li onClick={handleHeaderClick}><Link to="/contact">CONTACT</Link></li>
-                        </ul>
+                    <div className='header-text-block'>
+                        <a href="https://vimeo.com/sebastianblanco" target="_blank" rel="noreferrer" className='header-link-block'>Vimeo</a>
                     </div>
                 </div>
-            ) : (
-                <div className='header-block'>
-                    <div className='left-header'>
-                        <div className='header-ul'>
-                            <div className={`header-name`}>
-                                <Link to="/">
-                                    <p className='name times-regular'>SEBASTIÁN BLANCO</p>
-                                    <p className='dp-title times-title'>DIRECTOR OF PHOTOGRAPHY</p>
-
-                                </Link>
-                            </div>
-                        </div>
-                        <ul className='header-menu'>
-                            <div>
-                                <li onClick={handleHeaderClick}><Link to="/">SELECTED WORK</Link></li>
-                                <li onClick={handleHeaderClick}><Link to="/commercial">COMMERCIAL</Link></li>
-                                <li onClick={handleHeaderClick}><Link to="/music_videos">MUSIC VIDEOS</Link></li>
-                                <li onClick={handleHeaderClick}><Link to="/stills">STILLS</Link></li>
-                                <li onClick={handleHeaderClick}><Link to="/contact">CONTACT</Link></li>
-                            </div>
-                        </ul>
-                    </div>
-                    <div className='header-links'>
-                        <div className='instagram-logo'>
-                            <a href="https://www.instagram.com/sebstnblanco/" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/instagramlogo.png"} className={`${selected ? 'invert' : ''}`} alt="instagram" /></a>
-                        </div>
-                        <div className='vimeo-logo'>
-                            <a href="https://vimeo.com/sebastianblanco" target="_blank" rel="noreferrer"> <img src={process.env.PUBLIC_URL + "/vimeologo.png"} alt="vimeo" className={`${selected ? 'invert' : ''}`} /></a>
-                        </div>
-                    </div>
-                </div>
-            )
-            }
+            </div>
         </div>
     );
 }
