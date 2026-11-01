@@ -32,7 +32,7 @@ const Info = () => {
                 </div>
                 <div className="info-block">
                     <div className="info-title-block">
-                        Directors
+                        Directors & Production Companies
                     </div>
                     <div className="info-items-block">
                         <ul>
@@ -77,9 +77,9 @@ const Info = () => {
                     <div className="info-items-block">
                         {info.representation.agency}
                         <br />
-                        LATAM: <a href={`mailto:${info.representation.email}`}>{info.representation.latam_email}</a>
+                        LATAM: <a href={`mailto:${info.representation.latam_email}`}>{info.representation.latam_email}</a>
                         <br />
-                        EU: <a href={`tel:${info.representation.phone_number}`}>{info.representation.eu_email}</a>
+                        EU: <a href={`mailto:${info.representation.eu_email}`}>{info.representation.eu_email}</a>
                     </div>
                 </div>
             </div>
