@@ -10,9 +10,6 @@ const Header = () => {
                         Sebastian Blanco
                     </NavLink>
                 </div>
-                <div className='header-text-block'>
-                    Director of Photography
-                </div>
                 <div className='links-block'>
                     <div className='header-text-block'>
                         <a href="https://www.instagram.com/sebstnblanco/" target="_blank" rel="noreferrer" className='header-link-block'>Instagram</a>, 
