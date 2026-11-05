@@ -46,26 +46,13 @@
   position: relative;
   text-decoration: none;
   color: white;
+  opacity: 100%;
+  transition: opacity 0.2s ease;
 }
 
-.header-name-block::after,
-.header-link-block::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: -2px;
-  left: 0;
-  background-color: white;
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 0.1s ease-out;
-}
-
-.header-name-block:hover::after,
-.header-link-block:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+.header-name-block:hover,
+.header-link-block:hover {
+  opacity: 50%;
 }
 
 .header-misc-container {
