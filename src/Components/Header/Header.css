@@ -62,7 +62,17 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header-container-block  {
+  .header-container-block {
     width: 95%;
+  }
+
+  .header-name-container {
+    width: 30%;
+    height: 100%;
+  }
+
+  .header-misc-container {
+    width: 70%;
+    height: 100%;
   }
 }
