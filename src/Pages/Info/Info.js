@@ -12,11 +12,11 @@ const Info = () => {
                     <div className="info-items-block">
                         {info.bio}
                     </div>
-                </div>
-                <div className="photos-block">
-                    {info.images.map((p, i) => (
-                        <img className="info-photo-img" src={p} alt={i}></img>
-                    ))}
+                    <div className="photos-block">
+                        {info.images.map((p, i) => (
+                            <img className="info-photo-img" src={p} alt={i}></img>
+                        ))}
+                    </div>
                 </div>
                 <div className="info-block">
                     <div className="info-title-block">

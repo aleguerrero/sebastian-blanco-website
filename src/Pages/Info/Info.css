@@ -78,7 +78,7 @@
 }
 
 .info-photo-img {
-  width: 500px;
+  width: 100%;
   padding-bottom: 50px;
 }
 
@@ -98,7 +98,7 @@
     padding-top: 0;
   }
   .info-photo-img {
-    width: 400px;
+   
     padding: 5px;
   }
 }
