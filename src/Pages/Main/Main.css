@@ -54,15 +54,10 @@
 .main-projects-preview-block {
   width: 80%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .main-preview-block {
   width: 60%;
-  display: flex;
-  justify-content: center;
 }
 
 .main-preview-image {

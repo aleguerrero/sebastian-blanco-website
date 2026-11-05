@@ -16,12 +16,23 @@
 .header-container-block {
   width: 98%;
   display: flex;
-  justify-content: space-between;
+}
+
+.header-name-container {
+  width: 20%;
+  height: 100%;
 }
 
 .header-text-block {
   display: flex;
   align-items: center;
+}
+
+.header-misc-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .links-block {
@@ -35,13 +46,32 @@
   position: relative;
   text-decoration: none;
   color: white;
-  opacity: 100%;
-  transition: opacity 0.2s ease;
 }
 
-.header-name-block:hover,
-.header-link-block:hover {
-  opacity: 50%;
+.header-name-block::after,
+.header-link-block::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.1s ease-out;
+}
+
+.header-name-block:hover::after,
+.header-link-block:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.header-misc-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
 }
 
 @media screen and (max-width: 768px) {
