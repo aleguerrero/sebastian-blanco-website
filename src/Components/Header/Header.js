@@ -13,7 +13,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className='header-misc-container'>
-                    <div className='header-text-block'>
+                    <div className='header-title-block'>
                         Director of Photography
                     </div>
                     <div className='links-block'>

@@ -26,8 +26,7 @@
 }
 
 .list-project-name.current-playing-project {
-  opacity: 100%;
-  color: white;
+  opacity: 50%;
 }
 
 .project-stills-block {

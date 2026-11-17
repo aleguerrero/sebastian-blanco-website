@@ -35,6 +35,13 @@
   justify-content: space-between;
 }
 
+/* blanco explícito: con mix-blend-mode: difference, el texto negro (heredado del body) se vuelve invisible */
+.header-title-block {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
 .links-block {
   display: flex;
   flex-direction: row;
