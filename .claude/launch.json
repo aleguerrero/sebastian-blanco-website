@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sebastian-blanco",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": [
+        "-c",
+        "PORT=3005 BROWSER=none npm start"
+      ],
+      "port": 3005
+    },
+    {
+      "name": "sebastian-blanco-3006",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": [
+        "-c",
+        "PORT=3006 BROWSER=none npm start"
+      ],
+      "port": 3006
+    }
+  ]
+}
