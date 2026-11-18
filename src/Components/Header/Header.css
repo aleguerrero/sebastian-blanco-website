@@ -16,6 +16,9 @@
 .header-container-block {
   width: 98%;
   display: flex;
+  /* alinea nombre, título y links sobre la misma línea base */
+  align-items: baseline;
+  line-height: 1;
 }
 
 .header-name-container {
