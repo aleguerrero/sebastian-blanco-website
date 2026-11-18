@@ -45,8 +45,6 @@
 }
 .main-project-viewer-credits p {
   margin: 5px 0;
-  font-weight: 200;
-  font-size: 0.8em;
 }
 
 @media screen and (max-width: 768px) {

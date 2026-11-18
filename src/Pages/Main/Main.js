@@ -18,7 +18,7 @@ const Main = () => {
     return (
         <div className="main-container">
             <ProjectsMenu hoverEvent={handleMouseEnter}/>
-            <ProjectPreview selectedVideo={hoveredVideo} />
+            {/* <ProjectPreview selectedVideo={hoveredVideo} /> */}
         </div>
 
     );

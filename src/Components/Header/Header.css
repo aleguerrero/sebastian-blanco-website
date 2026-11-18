@@ -47,6 +47,10 @@
   flex-direction: row;
 }
 
+.header-name-block {
+  font-weight: bold;
+}
+
 .header-name-block,
 .header-link-block {
   display: inline-block;
