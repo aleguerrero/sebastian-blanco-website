@@ -11,10 +11,8 @@
   position: relative;
   width: 100%;
   min-height: 95dvh;
-  margin-top: 5dvh;
+  margin-top: 15dvh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   animation: fadeIn 0.2s ease-in-out forwards;
 }
 
@@ -23,11 +21,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .info-title-block {
   padding-bottom: 10px;
+  font-weight: bold;
 }
 
 .info-container li {
