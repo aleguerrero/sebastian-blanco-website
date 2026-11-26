@@ -89,3 +89,21 @@
     width: 100%;
   }
 }
+
+.main-hover-still-block {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 0 0 5%;
+  box-sizing: border-box;
+}
+
+.main-hover-still-image {
+  max-width: 50%;
+  max-height: 40%;
+  object-fit: contain;
+  opacity: 0;
+  animation: fadeIn 0.2s ease-in-out forwards;
+}
