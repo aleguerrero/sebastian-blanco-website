@@ -5,8 +5,8 @@
       "production_company": "Valentine Worldwide",
       "directed_by": "Chris Cadaver & Julian Burgueno",
       "url": "https://vimeo.com/1087386510",
-      "preview": "/previews/malcomunicada.mp4",
       "stills_folder": "Mal_Comunicada",
+      "cover": "malcomunicada_1.1.6.webp",
       "stills": [
         "malcomunicada_1.1.1.webp",
         "malcomunicada_1.1.2.webp",
@@ -26,8 +26,8 @@
       "production_company": "New Cycle",
       "directed_by": "Valentin Caride",
       "url": "https://vimeo.com/1163693794",
-      "preview": "/previews/adizeroevosl.mp4",
       "stills_folder": "Adizero",
+      "cover": "adizero_1.1.7.webp",
       "stills": [
         "adizero_1.1.1.webp",
         "adizero_1.1.2.webp",
@@ -46,7 +46,6 @@
       "production_company": "Mutual MX",
       "directed_by": "Moni Leon",
       "url": "https://vimeo.com/962736308",
-      "preview": "/previews/dior.mp4",
       "stills_folder": "Dior",
       "stills": [
         "Dior_1.1.1.webp",
@@ -71,8 +70,8 @@
       "production_company": "Landia",
       "directed_by": "Kevin Rosales",
       "url": "https://vimeo.com/1177781115/1ada0943ec",
-      "preview": "/previews/fordprox.mp4",
       "stills_folder": "Ford_Pro",
+      "cover": "fordpro_1.1.2.webp",
       "stills": [
         "fordpro_1.1.1.webp",
         "fordpro_1.1.2.webp",
@@ -91,8 +90,8 @@
       "production_company": "Momo Room",
       "directed_by": "Chris Cadaver & Julian Burgueno",
       "url": "https://vimeo.com/1065167402",
-      "preview": "/previews/badhabit.mp4",
       "stills_folder": "Bad_habit",
+      "cover": "Badhabit_1.1.2.webp",
       "stills": [
         "Badhabit_1.1.1.webp",
         "Badhabit_1.1.2.webp",
@@ -110,8 +109,8 @@
       "production_company": null,
       "directed_by": "Kevin Rosales",
       "url": "https://vimeo.com/1241021787",
-      "preview": "/previews/sofipaez.mp4",
       "stills_folder": "Water",
+      "cover": "Water_1.1.8.webp",
       "stills": [
         "Water_1.1.1.webp",
         "Water_1.1.2.webp",
@@ -132,7 +131,6 @@
       "production_company": "Arre",
       "directed_by": "Emilio Pichardo",
       "url": "https://vimeo.com/902639022",
-      "preview": "/previews/adidas.mp4",
       "stills_folder": "adidas_Originals",
       "stills": [
         "adidasoriginals_1.1.3.webp",
@@ -147,7 +145,6 @@
       "production_company": "Travesura Films",
       "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/1175641904",
-      "preview": "/previews/nbgif.mp4",
       "stills_folder": "New_Balance",
       "stills": [
         "newbalance_1.1.1.webp",
@@ -166,8 +163,8 @@
       "production_company": "Nine",
       "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/1120417964",
-      "preview": "/previews/debut.mp4",
       "stills_folder": "Debut",
+      "cover": "debut_1.1.6.webp",
       "stills": [
         "debut_1.1.1.webp",
         "debut_1.1.2.webp",
@@ -185,8 +182,8 @@
       "production_company": "New Cycle",
       "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/1175598490",
-      "preview": "/previews/superstar.mp4",
       "stills_folder": "adidas_superstar",
+      "cover": "adidassuperstar_1.1.3.webp",
       "stills": [
         "adidassuperstar_1.1.1.webp",
         "adidassuperstar_1.1.2.webp",
@@ -203,7 +200,6 @@
       "production_company": "Malevo",
       "directed_by": "Diego Rio",
       "url": "https://vimeo.com/1120418587",
-      "preview": "/previews/cruzazul.mp4",
       "stills_folder": "Cruz_Azul",
       "stills": [
         "CRUZAZUL_1.1.1.webp",
@@ -221,7 +217,6 @@
       "production_company": "Landia",
       "directed_by": "Kevin Rosales",
       "url": "https://vimeo.com/1175604872",
-      "preview": "/previews/donjulio.mp4",
       "stills_folder": "test",
       "stills": [
         "01.jpg",
@@ -236,7 +231,6 @@
       "production_company": "Materia",
       "directed_by": "Marah Hoffman",
       "url": "https://vimeo.com/913725910",
-      "preview": "/previews/marahhoffmanxoo.mp4",
       "stills_folder": "test",
       "stills": [
         "01.jpg",
@@ -251,7 +245,6 @@
       "production_company": "Laguna",
       "directed_by": "Mateo Zavala & Rex Cordova",
       "url": "https://vimeo.com/978535256",
-      "preview": "/previews/broxel.mp4",
       "stills_folder": "test",
       "stills": [
         "01.jpg",
@@ -266,7 +259,6 @@
       "production_company": null,
       "directed_by": null,
       "url": "https://vimeo.com/814438844",
-      "preview": "/previews/cruda.mp4",
       "stills_folder": "test",
       "stills": [
         "01.jpg",
@@ -281,7 +273,6 @@
       "production_company": "Another Video",
       "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/1106245278",
-      "preview": "/previews/debinovalive.mp4",
       "stills_folder": "test",
       "stills": [
         "01.jpg",
@@ -296,7 +287,6 @@
       "production_company": "Another Video",
       "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/1075170140",
-      "preview": "/previews/debiacustico.mp4",
       "stills_folder": "Tu_manera_de_amar",
       "stills": [
         "tmda_1.1.1.webp",
@@ -310,7 +300,6 @@
       "production_company": "Nine",
       "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/761548744",
-      "preview": "/previews/carlossadness.mp4",
       "stills_folder": "test",
       "stills": [
         "01.jpg",
@@ -325,7 +314,6 @@
       "production_company": "Nine",
       "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/sebascoto/aguita",
-      "preview": "/previews/AGUITA.mp4",
       "stills_folder": "Aguita",
       "stills": [
         "aguita_1.1.1.webp"
@@ -336,7 +324,6 @@
       "production_company": "Nine",
       "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/563495120",
-      "preview": "/previews/tomyjerry.mp4",
       "stills_folder": "test",
       "stills": [
         "01.jpg",
@@ -351,7 +338,6 @@
       "production_company": "Nine",
       "directed_by": "Marcel Masis",
       "url": "https://vimeo.com/498937569",
-      "preview": "/previews/PRINCIPEIDIOTA.mp4",
       "stills_folder": "test",
       "stills": [
         "01.jpg",
@@ -366,7 +352,6 @@
       "production_company": "Nine",
       "directed_by": "Sebas Coto",
       "url": "https://vimeo.com/814487005",
-      "preview": "/previews/sangrepoderosa.mp4",
       "stills_folder": "test",
       "stills": [
         "01.jpg",
@@ -380,7 +365,6 @@
       "title": "Apuntes de Espacio",
       "directed_by": "Ale Kelly",
       "url": "https://vimeo.com/813280266",
-      "preview": "/previews/apuntesdeespacio.mp4",
       "stills_folder": "Apuntes_de_espacio",
       "stills": [
         "ade_1.1.1.webp",
@@ -396,7 +380,6 @@
       "production_company": "Cicatriz",
       "directed_by": "Rebeca Becerrada Cussi",
       "url": "https://vimeo.com/1201483060",
-      "preview": "",
       "stills_folder": "A_machine_that_trembles",
       "stills": [
         "Amtt_1.1.1.webp",
@@ -412,7 +395,6 @@
       "production_company": "Momo Room",
       "directed_by": "Camila Arroyo",
       "url": "https://vimeo.com/1175787556",
-      "preview": "/previews/tease.mp4",
       "stills_folder": "Verla_Ensayar",
       "stills": [
         "verlaensayar_1.1.1.webp",
@@ -430,8 +412,8 @@
       "title": "Camila Arroyo",
       "directed_by": "Junio",
       "url": "https://vimeo.com/1211487021",
-      "preview": "",
       "stills_folder": "Camila_Arroyo",
+      "cover": "camila_1.1.11.webp",
       "stills": [
         "camila_1.1.1.webp",
         "camila_1.1.2.webp",
@@ -451,7 +433,6 @@
       "production_company": "Laguna",
       "directed_by": "Viridiana",
       "url": "https://vimeo.com/1186399466",
-      "preview": "",
       "stills_folder": "Droste",
       "stills": [
         "Droste_1.1.1.webp",
@@ -465,7 +446,6 @@
     "cam-hicks": {
       "title": "Cam Hicks",
       "url": "https://vimeo.com/1112141578",
-      "preview": "",
       "stills_folder": "Cam_Hicks",
       "stills": [
         "camhicks_1.1.1.webp",
@@ -483,7 +463,6 @@
       "production_company": "Dorsia",
       "directed_by": "Santa Lemos & Jazmin Wilhelm Esprow",
       "url": "https://vimeo.com/1211023601",
-      "preview": "",
       "stills_folder": "Xiaomi",
       "stills": [
         "xiaomi_1.1.1.webp",
@@ -503,7 +482,6 @@
       "production_company": "Violeta Films",
       "directed_by": "Chris Cadaver & Julian Burgueno",
       "url": "https://vimeo.com/1211024830",
-      "preview": "",
       "stills_folder": "Roger",
       "stills": [
         "roger_1.1.1.webp",
@@ -521,7 +499,6 @@
       "production_company": "Rabbit House",
       "creative_direction": "Janthony Oliveras",
       "url": "",
-      "preview": "",
       "stills_folder": "Bad_Bunny_Intro_CR",
       "stills": [
         "bbcr02_1.5.1.webp",

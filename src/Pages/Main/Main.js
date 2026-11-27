@@ -10,7 +10,7 @@ import projects from "../../projects.json";
 const getProjectStill = (slug) => {
     const project = projects.projects[slug];
     if (!project || !project.stills_folder || !project.stills?.length) return null;
-    return `${process.env.PUBLIC_URL}/stills/projects/${project.stills_folder}/${project.stills[0]}`;
+    return `${process.env.PUBLIC_URL}/stills/projects/${project.stills_folder}/${project.cover || project.stills[0]}`;
 };
 
 const Main = () => {
