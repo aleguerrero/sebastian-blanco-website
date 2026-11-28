@@ -76,8 +76,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  /* centrado: mismo margen (2%) a la izquierda que .app-block y a la derecha */
   .header-container-block {
-    width: 95%;
+    width: 96%;
   }
 
   .header-name-container {
