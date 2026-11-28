@@ -98,6 +98,9 @@
     justify-content: initial;
     min-height: 100%;
     width: 100%;
+    /* mismo margen derecho que el header (2vw): termina donde termina "Vimeo" */
+    padding-right: 2vw;
+    box-sizing: border-box;
   }
   .bio-block {
     width: 100%;
@@ -108,6 +111,6 @@
     padding-top: 0;
   }
   .info-photo-img {
-    padding: 5px;
+    padding: 5px 0;
   }
 }
