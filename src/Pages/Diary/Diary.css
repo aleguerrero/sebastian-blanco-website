@@ -57,6 +57,9 @@
   width: 100%;
 }
 
-.bio-block {
-  padding-left: 0;
+@media screen and (max-width: 768px) {
+  .diary-container-block {
+    width: 70%;
+  }
 }
+
