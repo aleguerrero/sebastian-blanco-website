@@ -89,3 +89,23 @@
     width: 100%;
   }
 }
+
+.main-hover-still-block {
+  flex: 1;
+  height: 100%;
+}
+
+/* Pegado a la esquina inferior derecha de la ventana.
+   Ancho: 80% de la columna derecha (98vw * 80% del layout). */
+.main-hover-still-image {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 60%;
+  height: auto;
+  max-height: 90dvh;
+  object-fit: contain;
+  object-position: right bottom;
+  opacity: 0;
+  animation: fadeIn 0.2s ease-in-out forwards;
+}

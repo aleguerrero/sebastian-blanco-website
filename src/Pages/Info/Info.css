@@ -17,7 +17,7 @@
 }
 
 .info-container-block {
-  width: 100%;
+  width: 99%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -59,10 +59,6 @@
   white-space: pre-line;
 }
 
-.info-block {
-  padding: 20px;
-}
-
 .socials-block {
   padding-top: 20px;
 }
@@ -82,14 +78,32 @@
 }
 
 @media screen and (max-width: 768px) {
+  /* el texto empieza a la altura del menú de proyectos */
+  .info-container {
+    margin-top: 5dvh;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  /* sin sangría lateral: todo alineado con Bio */
+  .info-block {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+  }
+
   .info-container-block {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: initial;
     min-height: 100%;
+    width: 100%;
+    /* mismo margen derecho que el header (2vw): termina donde termina "Vimeo" */
+    padding-right: 2vw;
+    box-sizing: border-box;
   }
   .bio-block {
-    width: 95%;
+    width: 100%;
   }
 
   .photos-block {
@@ -97,7 +111,6 @@
     padding-top: 0;
   }
   .info-photo-img {
-   
-    padding: 5px;
+    padding: 5px 0;
   }
 }
